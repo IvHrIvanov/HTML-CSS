@@ -1,0 +1,324 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: white;
+        height: 100vh;
+        line-height: 1.6;
+        overflow: hidden;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .all {
+        width: 100%;
+        height: 100%;
+        /* CSS Smooth Scroll */
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+    }
+
+    .navbar {
+        top: 0;
+        z-index: 1;
+        height: 55px;
+        width: 100%;
+        position: fixed;
+        background-color: white;
+    }
+
+    .navbar ul {
+        display: flex;
+        list-style: none;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .navbar ul li {
+        margin: 0 2rem;
+        padding: 1rem;
+    }
+
+    .navbar ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+    }
+
+    .home {
+        z-index: 2;
+        top: 7px;
+        left: 40px;
+        position: fixed;
+        color: black;
+    }
+
+    #dev {
+        font-size: 25px;
+        letter-spacing: 6px;
+    }
+
+    #container a {
+        font-size: 1em;
+        text-align: center;
+        -webkit-transition: font-size .5s ease;
+        -moz-transition: font-size .5s ease;
+        -o-transition: font-size .5s ease;
+        transition: font-size .5s ease;
+        position: static;
+        font-size: 17px;
+    }
+
+    #container a:hover {
+        font-size: 1.3em;
+    }
+
+    img {
+        position: initial;
+    }
+
+    .centerE {
+        width: 30%;
+        height: 80%;
+        position: relative;
+        left: 17px;
+    }
+
+    .centerE img {
+        z-index: 1;
+        height: 300px;
+        width: 270px;
+        border-radius: 100%;
+    }
+
+  
+    .IvanImg {
+        z-index: -1;
+        left: 0.9%;
+    }
+
+    .webDev {
+        color: white;
+        height: 110px;
+        margin-top: 180px;
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .MyName {
+        color: white;
+        height: 0px;
+        font-size: 100px;
+        text-align: center;
+    }
+
+    .ArrowStyle img {
+        height: 7%;
+        width: 3%;
+        transform: rotate(90deg);
+        filter: grayscale(100%);
+        z-index: 1;
+    }
+
+   
+    .show {
+        margin-top: 65px;
+        width: 220px;
+        height: 70px;
+        border-radius: 45px;
+        font-size: 18px;
+        background-color: white;
+        color: black;
+        border-style: none;
+        letter-spacing: 3px;
+    }
+
+    .show:hover {
+        background-color: transparent;
+        border: 4px solid white;
+        color: white;
+    }
+
+    #html {
+        height: 70px;
+        width: 70px;
+        top: 24.3%;
+        left: 1%;
+    }
+
+    #css {
+        height: 70px;
+        width: 70px;
+        top: 33.9%;
+        left: 1%;
+    }
+
+    #js {
+        height: 50px;
+        width: 50px;
+        top: 44.4%;
+        left: 1.4%;
+    }
+
+    #sharp {
+        height: 60px;
+        width: 60px;
+        top: 53.3%;
+        left: 1.25%;
+    }
+
+    .skillBarCointaner {
+        background: #ddd;
+        width: 11%;
+        border-radius: 10px;
+        margin-left: 85px;
+    }
+
+    .skills {
+        padding-bottom: 3px;
+        color: white;
+        text-align: right;
+        padding-top: 3px;
+    }
+
+    .html {
+        height: 15px;
+        width: 90%;
+        background-color: #e44c27;
+        margin-top: 320px;
+        border-radius: 10px;
+    }
+
+    .skillBarCointanerCSS {
+        background: #ddd;
+        width: 11%;
+        border-radius: 10px;
+        margin-left: 85px;
+        margin-top: 3.6%;
+    }
+
+    .skillsCss {
+        padding-bottom: 3px;
+        color: white;
+        text-align: right;
+        padding-top: 3px;
+    }
+
+    .css {
+        background-color: #379AD6;
+        border-radius: 10px;
+        width: 80%;
+    }
+
+    .skillBarCointanerJS {
+        background: #ddd;
+        width: 11%;
+        border-radius: 10px;
+        margin-left: 85px;
+        margin-top: 3.6%;
+    }
+
+    .skillsJS {
+        padding-bottom: 3px;
+        color: white;
+        text-align: right;
+        padding-top: 3px;
+    }
+
+    .js {
+        background-color: #F7DF1E;
+        border-radius: 10px;
+        width: 90%;
+    }
+
+    .skillBarCointanerC {
+        background: #ddd;
+        width: 11%;
+        border-radius: 10px;
+        margin-top: 3.6%;
+        margin-left: 85px;
+    }
+
+    .skillsSharp {
+        border-radius: 10px;
+        color: white;
+        text-align: right;
+        padding-top: 3px;
+    }
+
+    .c {
+        background-color: #9E75DA;
+        border-radius: 10px;
+        width: 90%;
+    }
+
+    .skillLevel {
+        top: 20%;
+        height: 50%;
+        width: 20%;
+        position: fixed;
+        font-size: 30px;
+        left: 5px;
+        color: black;
+        text-align: center;
+        letter-spacing: 2px;
+        background-color: white;
+        z-index: -1;
+        border-radius: 40px;
+        padding-top: 20px;
+    }
+
+    .aricleAboutMe {
+        position: fixed;
+        height: 0px;
+        width: 500px;
+        left: 70%;
+        top: 20%;
+    }
+
+    .aboutMe h3 {
+        color: white;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .aboutMe p {
+        color: white;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .SHOWMORE {
+        position: relative;
+        top: 69%;
+        left: 6%;
+        border-radius: 30px;
+        background-color: transparent;
+        width: 150px;
+        height: 40px;
+        font-size: 25px;
+        border: 1.5px solid black;
+    }
+
+    .SHOWMORE:hover {
+        background-color: gray;
+        color: white;
+        border-style: none;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        /* Scroll Snap */
+        scroll-snap-align: center;
+    }
+
+    section#box {
+        background: url(/icons/desckSix.jpg);
+    }
